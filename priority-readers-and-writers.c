@@ -84,6 +84,7 @@ void *readerMain(void *thread_args){
     pthread_exit(0);
 }
 
+//code for writer
 void *writerMain(void *thread_args){
 
     int num_readers = 0;
